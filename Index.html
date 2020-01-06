@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head> 
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/jquery.maskedinput.js"></script>
+	<!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<link type="text/css" rel="stylesheet" href="css/login.css"  media="screen,projection"/>
+	<link  rel ="icon"  href = "imagens/almox.ico"  type = "imagem/x-icon" >
+	<title>CEEP ALMOX</title>
+</head>
+<body>
+<form action="class/login.class.php" method="post">
+  <div class="imgcontainer">
+    <img src="imagens/logo_almox2.jpg" alt="Logo" class="avatar">
+  </div>
+  <div class="container">
+    <div class="row">
+        <label for="uname"><b>Usuário</b></label>
+        <input type="text"  name="login" autofocus="true" required>
+        <label for="senha"><b>Senha</b></label>
+        <input type="password" name="senha" required>
+    </div>
+        <div class="row">
+          <div class="col s6">
+                     <button type="submit"> Entrar </button>
+            </div>
+            <div class="col s6">
+               <a href="https://www.ceepcascavel.com.br/">
+                  <button type="button" class="cancelbtn">Cancelar</button> 
+                </a>    
+            </div>
+        </div>
+  </div>  
+</form>
+</html>

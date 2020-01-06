@@ -1,0 +1,129 @@
+ body {
+            width: 559px;
+            margin: 10px auto;
+        }
+        svg {
+            background-color: black;
+            border: 3px solid blue;
+            border-radius: 9px;
+        }
+        #player circle {
+            fill: yellow;
+        }
+        rect {
+            stroke: blue;
+            stroke-width: 3;
+        }
+        #ghost_box {
+            stroke: blue;
+            stroke-width: 3;
+        }
+        .ghost_btm {
+            stroke: none;
+        }
+        .ghost_eye {
+            fill: black;
+            stroke: white;
+            stroke-width: 2;
+        }
+        #ghost1 {
+            fill: red;
+        }
+        #ghost2 {
+            fill: cyan;
+        }
+        #ghost3 {
+            fill: green;
+        }
+        #ghost4 {
+            fill: pink;
+        }
+        #ghost5 {
+            fill: orange;
+        }
+        #win_or_lose_text {
+            color: white;
+            position: absolute;
+            top: 100px;
+            width: 559px;
+            font-size: 100px;
+            text-align: center;
+        }
+        #score_text {
+            color: white;
+            position: absolute;
+            top: 503px;
+            width: 559px;
+            text-align: center;
+            font-family: sans-serif;
+            font-weight: 700;
+            font-size: 22px;
+        }
+        .ball {
+            fill: white;
+        }
+        .ghosts {
+            fill: purple;
+        }
+        #cherry {
+            display: none;
+        }
+        #cherry > circle {
+            fill: #F03;
+            stroke: black;
+            stroke-width: 1;
+        }
+        #cherry > path {
+            stroke: green;
+            stroke-width: 2;
+        }
+        .bg_color{
+            background-color: #4B4B4B;
+        }
+        .container_trescolunas{
+            width: 440px;
+            height: 80px
+            margin: 10px auto;
+            border-radius: 10px;
+            border: 3px solid blue;
+            display: table; 
+            background-color: black;
+            float: inline-flex;
+            padding: 0% 10% 0% 10%;
+
+        }
+        .coluna1, .coluna2, .coluna3{ 
+            width:20%; 
+            margin:0.5em;  
+            border:#CCC 1px ;  
+            
+            float: left;
+            
+        }
+        .button {
+        color: white;
+        padding: 0.2px;
+        margin: 1%;     
+        width:  100px;
+        height: 60px;
+        border-radius: 10px;
+        }
+        .button:hover {
+        opacity: 0.8;
+        border-radius: 10px;
+        }
+        .btn1{
+            background-color: purple;
+        }
+        .btn2{
+            background-color: green;
+        }
+        .btn3{
+            background-color: red;
+        }
+        .img{
+            padding: 1px 2px 1px 2px;
+            width: 40px;
+            height: 45px;
+            float: center;            
+        }
